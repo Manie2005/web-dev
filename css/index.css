@@ -1,0 +1,389 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../img/kids.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  
+}
+
+
+.nav-bar a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-bar {
+  display: flex;
+}
+
+.menu {
+  margin-left: auto;
+}
+
+span {
+  color: orangered;
+}
+
+.logo a {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.menu ul{
+    display: flex;
+    padding-right: 10px;
+    list-style: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+.menu a{
+    padding-left: 30px;
+}
+
+.home a{
+    color: orangered;
+}
+
+.menu button{
+    background: none;
+    border: orangered 1px solid;
+    /* margin-top: 10px; */
+    padding: 10px;
+    color: orangered;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.content h3{
+    color: white;
+    text-align: center; 
+    padding-top: 12rem;
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.menu button:hover{
+    background: orangered;
+    color: white;
+    cursor: pointer;
+    transition: ease-in-out 1s;
+}
+
+.content p{
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 10px;
+}
+
+.content button{
+    background-color: orangered;
+    color: white;
+    width: 150px;
+    height: 50px;
+    border: orangered 1px solid;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 450;
+    margin-top: 20px;
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.content i{
+    margin-left: 10px;
+    font-size: 15px;
+}
+
+.content button:hover{
+    background-color: white;
+    color: orangered;
+    transition: ease-in-out .5s; 
+}
+
+
+.menu button i{
+    color: white;
+    background-color: orangered;
+    border-radius: 50%;
+    width: 14px;
+    height: 15px;
+    font-size: 15px;
+    text-align: left;
+}
+
+
+
+
+ @media screen and (min-width: 2560px) and (max-width:2560px){
+  .logo a{
+    font-size: 60px;
+  }
+  .menu ul{
+    font-size: 40px;
+    margin-right: 70px;
+  }
+  
+
+  .content{
+    margin-top: 400px;
+
+  }
+  .content h3{
+    font-size: 120px;
+  }
+  .content p{
+    font-size: 40px;
+  }
+  .menu button{
+    font-size: 30px;
+  }
+  .content button{
+    font-size: 40px;
+    width: 350px;
+    height: 100px;
+  }
+}
+
+@media screen and (min-width:1440px) and (max-width:1440px){
+  .menu ul{
+    font-size: 30px;
+  }
+
+  .content h3{
+    font-size: 70px;
+
+  }
+
+  .content p{
+    font-size: 20px;
+  }
+  .content{
+    margin-top: 100px;
+  }
+
+  
+}
+
+@media screen and (min-width:1024px) and (max-width:1024px){
+  .menu ul{
+    font-size: 30px;
+  }
+
+  .content h3{
+    font-size: 70px;
+
+  }
+
+  .content p{
+    font-size: 20px;
+  }
+  .content{
+    margin-top: 100px;
+  }
+
+  
+}
+
+@media screen and (max-width: 425px) and (max-width:425px){
+ 
+  .logo a{
+    font-size: 10px;
+    padding-top: 5px;
+  }
+.container {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../img/kids.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 120vh;
+  width: max-content;
+  
+}
+  .menu ul{
+    font-size: 10px;
+  }
+  .menu button{
+    font-size: 10px;
+    height: 20px;
+    width: 100px;
+    padding: 0;
+  }
+  .content h3{
+    font-size: 20px;
+  }
+  .content p{
+    font-size: 10px;
+  }
+
+}
+
+@media screen and (max-width:375px) and (max-width:375px){
+  .logo{
+    padding-top: 15px;
+    padding-left: 10px;
+  }
+  .logo a{
+    font-size: 10px;
+    margin: 0;
+    
+  }
+  .container {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../img/kids.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 125vh;
+  width: max-content;
+  
+}
+  .menu ul{
+    padding-top: 15px;
+    font-size: 10px;
+    margin: 0;
+  }
+  .menu button{
+    font-size: 10px;
+    height: 20px;
+    width: 85px;
+    padding: 0;
+  }
+  .content{
+    padding-top: 220px;
+  }
+  .content h3{
+    font-size: 24px;
+padding-top: 10px;
+  }
+  .content p{
+    font-size: 12px;
+    padding-top: 10px;
+  }
+  .content button{
+    font-size: 10px;
+    height:30px ;
+    margin: 0;
+  }
+}
+
+@media screen and (max-width:320px) and (max-width:320px){
+  .menu a{
+    padding: 7px;
+  }
+   .container {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../img/kids.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 150vh;
+  width: max-content;
+  
+}
+.content{
+    padding-top: 250px;
+  }
+  .content h3{
+    font-size: 36px;
+padding-top: 10px;
+  }
+  .content p{
+    font-size: 12px;
+    padding-top: 10px;
+  }
+} 
+@media screen and (min-width:426px) and (max-width:577px){
+  .container {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../img/kids.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 150vh;
+  width: max-content;
+  
+} 
+}
+@media screen and (min-width:200px) and (max-width:306px){
+
+.container {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../img/kids.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:250vh;
+  width: max-content;
+  
+} 
+.content{
+    padding-top: 500px;
+  }
+  .content h3{
+    font-size: 36px;
+padding-top: 10px;
+  }
+  .content p{
+    font-size: 12px;
+    padding-top: 10px;
+  }
+  .menu ul{
+    padding-top: 50px;
+    font-size: 10px;
+    margin: 0;
+  }
+   .logo{
+    padding-top: 50px;
+    padding-left: 10px;
+  }
+}
+@media screen and (min-width:100px) and (max-width:199px){
+
+.container {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../img/kids.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:550vh;
+  width: max-content;
+  
+} 
+.content{
+    padding-top:800px;
+  }
+  .menu ul{
+    padding-top: 100px;
+    font-size: 12px;
+    margin: 0;
+  }
+   .logo{
+    padding-top: 100px;
+    padding-left: 12px;
+  }
+}
+@media screen and (min-width:322px) and (max-width:379px){
+.container {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../img/kids.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:150vh;
+  width: max-content;
+  
+} 
+
+}
+
+
+
+
+
+
+
+
